@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export const Wrapper = styled.footer`
   display: block;
   position: relative;
-
   height: 90px;
   bottom: 0;
   left: 0;
@@ -13,7 +12,7 @@ export const Wrapper = styled.footer`
   overflow: hidden;
   font-size: 10px;
   background-color: #ffffff;
-  border-top: 0.5px solid #ececec;
+  border-top: 1.5px solid rgba(99, 99, 99, 0.2);
 `;
 
 export const Ulist = styled.ul`

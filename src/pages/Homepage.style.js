@@ -5,25 +5,18 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export const MainContent = styled.div`
   display: flex;
   width: 100%;
-  align-items: stretch;
-  padding-right: 30px;
-  padding-left: 30px;
-  margin-right: auto;
-  margin-left: auto;
-  @media (max-width: 1024px) {
-    padding-right: 4px;
-    padding-left: 4px;
-  }
+  max-width: 1200px;
+  margin: auto;
+  min-height: 80vh;
+  height: auto;
 `;
 
 export const Aside = styled.div`
-  width: 250px;
-  padding-bottom: 5px;
-  display: block;
-  margin: 5px 40px 5px 100px;
+  width: 280px;
+  margin-top: 15px;
+  padding: 5px;
   @media (max-width: 1024px) {
     width: 27%;
-    margin: 10px 10px 5px 10px;
   }
 `;
 
@@ -34,7 +27,7 @@ export const Sticky = styled.div`
   padding: 1.3rem;
   box-shadow: 0 5px 20px rgba(199, 196, 196, 0.5);
   position: sticky;
-  top: 60px;
+  top: 50px;
   border-radius: 5px;
 `;
 
@@ -49,10 +42,10 @@ export const Avatar = styled.div`
 
 export const Icons = styled.div`
   display: flex;
-  position: relative;
   justify-content: center;
   align-items: center;
   padding: 5px 6px 4px 6px;
+  position: relative;
   &::after {
     content: "";
     position: absolute;
@@ -181,11 +174,7 @@ export const Icon = styled(FontAwesomeIcon)`
 export const Main = styled.div`
   flex: 1;
   z-index: 999;
-  padding: 0 5px 5px;
-  margin: 10px 5px;
-  @media (max-width: 1024px) {
-    margin: 10px 0;
-  }
+  margin: 15px 20px;
 `;
 
 export const Title = styled.h1`
@@ -220,9 +209,11 @@ export const Description = styled.p`
 `;
 
 export const Gallery = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   border-radius: 5px;
-  margin: 0 60px;
-  float: left;
   width: auto;
   height: auto;
   @media (max-width: 1024px) {
@@ -267,10 +258,9 @@ export const Descript = styled.p`
 `;
 
 export const AsideHide = styled.div`
-  width: 250px;
-  padding-bottom: 5px;
-  display: block;
-  margin: 5px 100px 5px 35px;
+  width: 280px;
+  margin-top: 15px;
+  padding: 5px;
   @media (max-width: 1024px) {
     display: none;
   }

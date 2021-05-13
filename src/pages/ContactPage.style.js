@@ -13,11 +13,12 @@ export const Aside = styled.div`
   background-color: #ffffff;
   color: #2b2922;
   padding: 10px;
+  margin-top: 15px;
   margin-left: 150px;
   box-shadow: 0 5px 20px rgba(199, 196, 196, 0.5);
-  position: sticky;
-  top: 70px;
   border-radius: 5px;
+  position: sticky;
+  top: 60px;
   @media (max-width: 767px) {
     width: 55%;
   }
@@ -119,7 +120,8 @@ export const ImageSlider = styled.div`
   position: relative;
   max-width: 300px;
   width: 100%;
-  min-height: 100%;
+  min-height: 300px;
+  height: 100%;
   overflow: hidden;
   border-radius: 5px;
   border: 1px solid rgba(100, 100, 111, 0.2);

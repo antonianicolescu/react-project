@@ -14,6 +14,7 @@ export const Wrapper = styled.header`
   padding: 5px 15px;
   background-color: #ffffff;
   border-bottom: 1px solid #ececec;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 `;
 
 export const Container = styled.div`
