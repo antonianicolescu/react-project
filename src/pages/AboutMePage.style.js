@@ -1,15 +1,15 @@
 import styled from "styled-components";
+import { Container as C } from "reactstrap";
 
-export const MainContent = styled.div`
+export const Container = styled(C)`
   display: flex;
-  align-items: stretch;
   min-height: 80vh;
   height: auto;
-  max-width: 720px;
+  align-items: stretch;
 `;
 
 export const Main = styled.div`
-  display: flex;
+  flex: 1;
   margin: 0 1.5rem;
   z-index: 999;
 `;
@@ -38,4 +38,13 @@ export const Title = styled.h1`
       transparent
     );
   }
+`;
+export const Description = styled.p`
+  font-size: 15px;
+  text-align: left;
+  font-weight: 400;
+  font-family: "Open Sans";
+  line-height: 1.3;
+  letter-spacing: 1px;
+  padding: 10px;
 `;
